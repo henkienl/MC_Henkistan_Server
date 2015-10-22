@@ -1,0 +1,409 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitattributes
+#	new file:   asm/ccl_modular/aaf.txt
+#	new file:   asm/ccl_modular/aji.txt
+#	new file:   asm/ccl_modular/alb.txt
+#	new file:   asm/ccl_modular/dh.txt
+#	new file:   asm/ccl_modular/dq.txt
+#	new file:   banned-ips.json
+#	new file:   banned-players.json
+#	new file:   config/AE2Stuff/readme.txt
+#	new file:   config/ATLChecker.cfg
+#	new file:   config/AWWayofTime.cfg
+#	new file:   config/AdvGenerators/client.config
+#	new file:   config/AdvGenerators/readme.txt
+#	new file:   config/AdvancedRepulsionSystems.cfg
+#	new file:   config/AdvancedSolarPanel.cfg
+#	new file:   config/AdvancedSolarPanel_MTRecipes.cfg
+#	new file:   config/AppleCore.cfg
+#	new file:   config/AppliedEnergistics2/AppliedEnergistics2.cfg
+#	new file:   config/AppliedEnergistics2/Facades.cfg
+#	new file:   config/AppliedEnergistics2/VersionChecker.cfg
+#	new file:   config/AppliedEnergistics2/extracells.cfg
+#	new file:   config/ArchimedesShips.cfg
+#	new file:   config/ArchimedesShips/default.mrot
+#	new file:   config/ArmorStatusHUD.cfg
+#	new file:   config/ArtifactEffects.cfg
+#	new file:   config/Artifacts.cfg
+#	new file:   config/Artifice.cfg
+#	new file:   config/Automagy.cfg
+#	new file:   config/BWG4.cfg
+#	new file:   config/Backpack.cfg
+#	new file:   config/Baubles.cfg
+#	new file:   config/BiblioCraft.cfg
+#	new file:   config/BigReactors/BigReactors.cfg
+#	new file:   config/BloodMagic/schematics/Ampitheter.json
+#	new file:   config/BloodMagic/schematics/LavaLight.json
+#	new file:   config/BloodMagic/schematics/MedFarm1.json
+#	new file:   config/BloodMagic/schematics/MedForge1.json
+#	new file:   config/BloodMagic/schematics/MedHouse1.json
+#	new file:   config/BloodMagic/schematics/MedMossyForge.json
+#	new file:   config/BloodMagic/schematics/MossyCellar1.json
+#	new file:   config/BloodMagic/schematics/MossyGourdHouse1.json
+#	new file:   config/BloodMagic/schematics/MossyTheatre.json
+#	new file:   config/BloodMagic/schematics/QuickDemonStructure1.json
+#	new file:   config/BloodMagic/schematics/SmallHouse1.json
+#	new file:   config/BloodMagic/schematics/SmallHouse2.json
+#	new file:   config/BloodMagic/schematics/SmallMossyTower1.json
+#	new file:   config/BloodMagic/schematics/SmallTower1.json
+#	new file:   config/Botania.cfg
+#	new file:   config/CalculatorMod/AtomicMultiplier-BlackList.cfg
+#	new file:   config/CalculatorMod/CalculatorMod.cfg
+#	new file:   config/CarpentersBlocks.cfg
+#	new file:   config/ChickenChunks.cfg
+#	new file:   config/ChiselFacades.cfg
+#	new file:   config/ChiselTones.cfg
+#	new file:   config/CodeChickenCore.cfg
+#	new file:   config/CompactMachines.cfg
+#	new file:   config/ComputerCraft.cfg
+#	new file:   config/CosmeticArmor.cfg
+#	new file:   config/CustomMainMenu/menu.json
+#	new file:   config/DIAdvancedCompatibility.cfg
+#	new file:   config/DamageIndicatorsMod.cfg
+#	new file:   config/DraconicEvolution.cfg
+#	new file:   config/Eln.cfg
+#	new file:   config/EnderStorage.cfg
+#	new file:   config/EnhancedPortals/config.cfg
+#	new file:   config/Eureka/Categories/Eureka.json
+#	new file:   config/ExAstris.cfg
+#	new file:   config/ExNihilo.cfg
+#	new file:   config/ExtraTiC.cfg
+#	new file:   config/ExtraUtilities.cfg
+#	new file:   config/FlaxbeardsSteamPower.cfg
+#	new file:   config/FloodLights.cfg
+#	new file:   config/ForbiddenMagic.cfg
+#	new file:   config/ancientwarfare/AncientWarfare.cfg
+#	new file:   config/ancientwarfare/AncientWarfareAutomation.cfg
+#	new file:   config/ancientwarfare/AncientWarfareNpc.cfg
+#	new file:   config/ancientwarfare/AncientWarfareNpcEquipment.cfg
+#	new file:   config/ancientwarfare/AncientWarfareNpcFactionStandings.cfg
+#	new file:   config/ancientwarfare/AncientWarfareNpcFood.cfg
+#	new file:   config/ancientwarfare/AncientWarfareNpcHealth.cfg
+#	new file:   config/ancientwarfare/AncientWarfareNpcPath.cfg
+#	new file:   config/ancientwarfare/AncientWarfareNpcTargeting.cfg
+#	new file:   config/ancientwarfare/AncientWarfareNpcValues.cfg
+#	new file:   config/ancientwarfare/AncientWarfareStructures.cfg
+#	new file:   config/ancientwarfare/AncientWarfareVehicle.cfg
+#	new file:   config/aobd.cfg
+#	new file:   config/aroma1997/Aroma1997Core.cfg
+#	new file:   config/aroma1997/Aroma1997sDimension.cfg
+#	new file:   config/asielib.cfg
+#	new file:   config/asietweaks.cfg
+#	new file:   config/asietweaks/creative/items.cfg
+#	new file:   config/asietweaks/creative/main.cfg
+#	new file:   config/asietweaks/creative/tabs.cfg
+#	new file:   config/aura.cfg
+#	new file:   config/autopackager.cfg
+#	new file:   config/bcadditions.cfg
+#	new file:   config/bigtrees/biomegroups.cfg
+#	new file:   config/bigtrees/individualbiomes.cfg
+#	new file:   config/bigtrees/kbigtrees.txt
+#	new file:   config/bigtrees/treeconfigs/BigBirch.cfg
+#	new file:   config/bigtrees/treeconfigs/BigPine.cfg
+#	new file:   config/bigtrees/treeconfigs/BlockOak.cfg
+#	new file:   config/bigtrees/treeconfigs/Cyprus.cfg
+#	new file:   config/bigtrees/treeconfigs/Dead.cfg
+#	new file:   config/bigtrees/treeconfigs/GreatOak.cfg
+#	new file:   config/bigtrees/treeconfigs/Hat.cfg
+#	new file:   config/bigtrees/treeconfigs/SwampOak.cfg
+#	new file:   config/bigtrees/treeconfigs/TallOak.cfg
+#	new file:   config/biomesoplenty/biomegen.cfg
+#	new file:   config/biomesoplenty/biomeweights.cfg
+#	new file:   config/biomesoplenty/ids.cfg
+#	new file:   config/biomesoplenty/main.cfg
+#	new file:   config/biomesoplenty/misc.cfg
+#	new file:   config/biomesoplenty/structures/strongholds.cfg
+#	new file:   config/biomesoplenty/structures/villages.cfg
+#	new file:   config/biomesoplenty/terraingen.cfg
+#	new file:   config/bluepower.cfg
+#	new file:   config/books/enchiridion.cfg
+#	new file:   config/bspkrsCore.cfg
+#	new file:   config/buildcraft/compat.cfg
+#	new file:   config/buildcraft/main.cfg
+#	new file:   config/buildcraft/main.conf
+#	new file:   config/chisel.cfg
+#	new file:   config/chocobo_config.txt
+#	new file:   config/cofh/Client.cfg
+#	new file:   config/cofh/CoFHCore.cfg
+#	new file:   config/cofh/CoFHLoot.cfg
+#	new file:   config/cofh/CoFHSocial-Friends.cfg
+#	new file:   config/cofh/Lexicon-Whitelist.cfg
+#	new file:   config/cofh/RedstoneArsenal.cfg
+#	new file:   config/cofh/ThermalExpansion-Florbs.cfg
+#	new file:   config/cofh/ThermalExpansion-Fuels.cfg
+#	new file:   config/cofh/ThermalExpansion.cfg
+#	new file:   config/cofh/ThermalFoundation.cfg
+#	new file:   config/cofh/core/client.cfg
+#	new file:   config/cofh/core/common.cfg
+#	new file:   config/cofh/core/friends.cfg
+#	new file:   config/cofh/core/loot.cfg
+#	new file:   config/cofh/redstonearsenal/common.cfg
+#	new file:   config/cofh/thermaldynamics/client.cfg
+#	new file:   config/cofh/thermaldynamics/common.cfg
+#	new file:   config/cofh/thermalexpansion/client.cfg
+#	new file:   config/cofh/thermalexpansion/common.cfg
+#	new file:   config/cofh/thermalexpansion/florbs.cfg
+#	new file:   config/cofh/thermalexpansion/fuels.cfg
+#	new file:   config/cofh/thermalfoundation/client.cfg
+#	new file:   config/cofh/thermalfoundation/common.cfg
+#	new file:   config/cofh/thermalfoundation/lexicon-whitelist.cfg
+#	new file:   config/cofh/world/Modded-Ores.JSON
+#	new file:   config/cofh/world/Mountain-Ores.JSON
+#	new file:   config/cofh/world/Nether-Ores.JSON
+#	new file:   config/cofh/world/ThermalExpansion-Ores.json
+#	new file:   config/cofh/world/ThermalFoundation-Ores.json
+#	new file:   config/cofh/world/Vanilla.json
+#	new file:   config/computronics.cfg
+#	new file:   config/denseores.cfg
+#	new file:   config/draconicevolution/manual.json
+#	new file:   config/eirairc.cfg
+#	new file:   config/eirairc/client.cfg
+#	new file:   config/eirairc/commands.json
+#	new file:   config/eirairc/commands.json.example.txt
+#	new file:   config/eirairc/formats/classic.cfg
+#	new file:   config/eirairc/formats/detail.cfg
+#	new file:   config/eirairc/formats/light.cfg
+#	new file:   config/eirairc/formats/minecraft.cfg
+#	new file:   config/eirairc/formats/s-light.cfg
+#	new file:   config/eirairc/formats/twitch.cfg
+#	new file:   config/eirairc/servers.json
+#	new file:   config/eirairc/servers.json.example.txt
+#	new file:   config/eirairc/services.cfg
+#	new file:   config/eirairc/shared.cfg
+#	new file:   config/eirairc/trusted_servers.json
+#	new file:   config/enchiridion/books/enchiridion_introbook.json
+#	new file:   config/enchiridion/enchiridion2.cfg
+#	new file:   config/enchiridion/library_books.json
+#	new file:   config/endercompass.cfg
+#	new file:   config/enderio/AlloySmelterRecipes_Core.xml
+#	new file:   config/enderio/AlloySmelterRecipes_User.xml
+#	new file:   config/enderio/EnchanterRecipes_Core.xml
+#	new file:   config/enderio/EnchanterRecipes_User.xml
+#	new file:   config/enderio/EnderIO.cfg
+#	new file:   config/enderio/OreDictionaryPreferences_Core.xml
+#	new file:   config/enderio/OreDictionaryPreferences_User.xml
+#	new file:   config/enderio/PainterPaintSources_Core.xml
+#	new file:   config/enderio/PainterPaintSources_User.xml
+#	new file:   config/enderio/PoweredSpawnerConfig_Core.json
+#	new file:   config/enderio/PoweredSpawnerConfig_User.json
+#	new file:   config/enderio/SAGMillRecipes_Core.xml
+#	new file:   config/enderio/SAGMillRecipes_User.xml
+#	new file:   config/enderio/SliceAndSpliceRecipes_Core.xml
+#	new file:   config/enderio/SliceAndSpliceRecipes_User.xml
+#	new file:   config/enderio/VatRecipes_Core.xml
+#	new file:   config/enderio/VatRecipes_User.xml
+#	new file:   config/enderzoo/EnderZoo.cfg
+#	new file:   config/enderzoo/SpawnConfig_Core.xml
+#	new file:   config/enderzoo/SpawnConfig_User.xml
+#	new file:   config/eplus.cfg
+#	new file:   config/erebus.cfg
+#	new file:   config/eureka.cfg
+#	new file:   config/fluxedCrystals/Crystal.json
+#	new file:   config/fluxedCrystals/Experimental Seeds.JSON
+#	new file:   config/fluxedCrystals/enderioCrystal.json
+#	new file:   config/fluxedCrystals/fluxedCrystals.cfg
+#	new file:   config/fluxedCrystals/masterMutationData.json
+#	new file:   config/fluxedCrystals/masterSeedData.json
+#	new file:   config/fluxedCrystals/thermalCrystal.json
+#	new file:   config/fodc.cfg
+#	new file:   config/forestry/apiculture.conf
+#	new file:   config/forestry/backpacks.cfg
+#	new file:   config/forestry/backpacks.conf.old
+#	new file:   config/forestry/binnie-mods.conf
+#	new file:   config/forestry/binniecore/main.conf
+#	new file:   config/forestry/common.conf
+#	new file:   config/forestry/debug.conf
+#	new file:   config/forestry/extrabees/machines.conf
+#	new file:   config/forestry/extrabees/main.conf
+#	new file:   config/forestry/extratrees/main.conf
+#	new file:   config/forestry/fluids.conf
+#	new file:   config/forestry/gamemodes/EASY.conf
+#
+# Untracked files:
+#	IDMaps/
+#	LaunchServer.bat
+#	LaunchServer.sh
+#	config/FWG.cfg
+#	config/Galacticraft/
+#	config/GanysMods/
+#	config/GardenContainers.patterns.cfg
+#	config/GardenStuff/
+#	config/GraviSuite.cfg
+#	config/GregsLighting.cfg
+#	config/GrimoireOfGaia.cfg
+#	config/Guide-API/
+#	config/Guide-APIguideapi.cfg
+#	config/HardcoreEnderExpansion.cfg
+#	config/HopperDuctMod.cfg
+#	config/HungerOverhaul.cfg
+#	config/HungerOverhaul/
+#	config/HydCraft.cfg
+#	config/IC2.ini
+#	config/IC2NuclearControl.cfg
+#	config/IGWMod.cfg
+#	config/INpureProjects/
+#	config/IguanaTinkerTweaks/
+#	config/ImmersiveEngineering.cfg
+#	config/InGameInfoXML.cfg
+#	config/InfernalMobs.cfg
+#	config/InvTweaks.cfg
+#	config/InvTweaksRules.txt
+#	config/InvTweaksTree.txt
+#	config/IronChest.cfg
+#	config/JABBA.cfg
+#	config/LavaMonsters.cfg
+#	config/LogisticsPipes-LangDatabase.cfg
+#	config/LogisticsPipes.cfg
+#	config/LunatriusCore.cfg
+#	config/MagicBees.cfg
+#	config/MagicalCrops/
+#	config/Magistics.cfg
+#	config/Mekanism.cfg
+#	config/Metallurgy.cfg
+#	config/MetallurgyCore.cfg
+#	config/MouseTweaks.cfg
+#	config/MrTJPCore.cfg
+#	config/NEI/
+#	config/NEIAddons.cfg
+#	config/Natura-Dynamic.json
+#	config/Natura.cfg
+#	config/NotEnoughKeys.cfg
+#	config/OWG.cfg
+#	config/ObsidiPlates.cfg
+#	config/OpenBlocks.cfg
+#	config/OpenComputers.cfg
+#	config/OpenEye.json
+#	config/OpenMods.cfg
+#	config/OpenModsLibCore.json
+#	config/OpenPeripheral.cfg
+#	config/OpenPeripheralCore.cfg
+#	config/OpenPeripheralIntegration.cfg
+#	config/Pistronics2.cfg
+#	config/PneumaticCraft.cfg
+#	config/PressurePipes/
+#	config/ProjectBlue.cfg
+#	config/ProjectE/
+#	config/ProjectRed.cfg
+#	config/RArm.cfg
+#	config/RWG.cfg
+#	config/RandomThings.cfg
+#	config/RedstonePasteMod.cfg
+#	config/RefinedRelocation.cfg
+#	config/Reika/
+#	config/RouterReborn.cfg
+#	config/SSR/
+#	config/Sanguimancy.cfg
+#	config/SlimeKnights/
+#	config/StatusEffectHUD.cfg
+#	config/StevesAddons.cfg
+#	config/StevesCarts.cfg
+#	config/StevesWorkshop.cfg
+#	config/TMechworks.cfg
+#	config/TSmeltModules.cfg
+#	config/Thaumcraft.cfg
+#	config/ThaumicTinkerer.cfg
+#	config/ThermalSmeltery.cfg
+#	config/TinkersConstruct.cfg
+#	config/TinkersModules.cfg
+#	config/Translocator.cfg
+#	config/Tubes.cfg
+#	config/TubesCore.cfg
+#	config/Tweaks-RRino.cfg
+#	config/TwilightForest.cfg
+#	config/UniqueNames.txt
+#	config/Waila.cfg
+#	config/WailaHarvestability.cfg
+#	config/WirelessRedstone.cfg
+#	config/Ztones.cfg
+#	config/forestry/gamemodes/HARD.conf
+#	config/forestry/gamemodes/NORMAL.conf
+#	config/forestry/gamemodes/OP.conf
+#	config/forestry/lepidopterology.conf
+#	config/forestry/modules.cfg
+#	config/forge.cfg
+#	config/forgeChunkLoading.cfg
+#	config/fossil.cfg
+#	config/funkylocomotion.cfg
+#	config/gendustry/
+#	config/growthcraft/
+#	config/harvestcraft.cfg
+#	config/headcrumbs.cfg
+#	config/hqm/
+#	config/immersiveintegration.cfg
+#	config/immibis.cfg
+#	config/iridiummod.cfg
+#	config/ironchestminecarts.cfg
+#	config/malisisdoors.cfg
+#	config/mekanism/
+#	config/meteors.cfg
+#	config/microblocks.cfg
+#	config/minechem.cfg
+#	config/modstats.cfg
+#	config/morechisels.cfg
+#	config/multipart.cfg
+#	config/neiintegration.cfg
+#	config/neresources.cfg
+#	config/opencomputers/
+#	config/powerconverters/
+#	config/powercrystals/
+#	config/primitivemobs/
+#	config/progressiveautomation.cfg
+#	config/props.cfg
+#	config/quiverchevsky.cfg
+#	config/quivermobchevsky.cfg
+#	config/railcraft/
+#	config/reccomplex.cfg
+#	config/redgear/
+#	config/rftools/
+#	config/scottstweaks.cfg
+#	config/simplyjetpacks-client.cfg
+#	config/simplyjetpacks.cfg
+#	config/sprinkles_for_vanilla.cfg
+#	config/statues.cfg
+#	config/supercraftingframe.cfg
+#	config/tcnodetracker.cfg
+#	config/technomancy.cfg
+#	config/territorychevsky.cfg
+#	config/thaumcraftneiplugin.cfg
+#	config/thaumicenergistics.cfg
+#	config/transportterminal.cfg
+#	config/ttCore.cfg
+#	config/ttCore/
+#	config/veinminer/
+#	config/veinminermodintegration.cfg
+#	config/vending.cfg
+#	config/wailaplugins.cfg
+#	config/wawla.cfg
+#	config/weaponmod.cfg
+#	config/witchery.cfg
+#	config/witchery_debug.cfg
+#	config/xreliquary.cfg
+#	eula.txt
+#	forge-1.7.10-10.13.4.1448-1.7.10-universal.jar
+#	libraries/
+#	liteconfig/
+#	logs/
+#	minecraft_server.1.7.10.jar
+#	minetweaker.log
+#	modes/
+#	modifiers/
+#	mods/
+#	ops.json
+#	reports/
+#	scripts/
+#	server.properties
+#	specials/
+#	timezones/
+#	usercache.json
+#	usernamecache.json
+#	whitelist.json
+#	world/
+#
+
