@@ -1,18 +1,142 @@
-[00:02:08] [Server thread/INFO]: [Seileyas: Saved the world]
-[00:02:16] [Server thread/INFO]: [Seileyas: Stopping the server]
-[00:02:16] [Server thread/INFO]: Stopping server
-[00:02:16] [Server thread/INFO]: Saving players
-[00:02:16] [Server thread/INFO]: Saving worlds
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/the Ancient Treasure Room
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/Torment
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/Land of Darkness
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/Bedrock
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
-[00:02:16] [Server thread/INFO]: Saving chunks for level 'world'/SpectreWorld
+[10:58:42] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[10:59:48] [Server thread/INFO]: Loading properties
+[10:59:48] [Server thread/INFO]: Default game type: SURVIVAL
+[10:59:48] [Server thread/INFO]: Generating keypair
+[10:59:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:00:43] [Server thread/INFO]: Preparing level "world"
+[11:02:23] [Server thread/INFO]: Preparing start region for level 0
+[11:02:24] [Server thread/INFO]: Preparing spawn area: 32%
+[11:02:25] [Server thread/INFO]: Preparing spawn area: 44%
+[11:02:26] [Server thread/INFO]: Preparing spawn area: 51%
+[11:02:27] [Server thread/INFO]: Done (105,077s)! For help, type "help" or "?"
+[11:02:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2009ms behind, skipping 40 tick(s)
+[11:03:28] [User Authenticator #1/INFO]: UUID of player Seileyas is 24edf5d4-9f30-45f9-a861-9600028d6af9
+[11:03:28] [Server thread/INFO]: Seileyas[/127.0.0.1:50314] logged in with entity id 1724 at (153.1691526103455, 70.0, 132.37990502840745)
+[11:03:28] [Server thread/INFO]: Seileyas joined the game
+[11:07:47] [Server thread/ERROR]: "Silently" catching entity tracking error.
+net.minecraft.util.ReportedException: Adding entity to track
+	at net.minecraft.entity.EntityTracker.func_72785_a(EntityTracker.java:230) [mn.class:?]
+	at cpw.mods.fml.common.registry.EntityRegistry.tryTrackingEntity(EntityRegistry.java:364) [EntityRegistry.class:?]
+	at net.minecraft.entity.EntityTracker.func_72786_a(EntityTracker.java:61) [mn.class:?]
+	at net.minecraft.world.WorldManager.func_72703_a(SourceFile:31) [mp.class:?]
+	at net.minecraft.world.World.func_72923_a(World.java:1347) [ahb.class:?]
+	at net.minecraft.world.WorldServer.func_72923_a(WorldServer.java:844) [mt.class:?]
+	at net.minecraft.world.World.func_72868_a(World.java:3304) [ahb.class:?]
+	at net.minecraft.world.chunk.Chunk.func_76631_c(Chunk.java:921) [apx.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:46) [ChunkIOProvider.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:12) [ChunkIOProvider.class:?]
+	at net.minecraftforge.common.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:344) [AsynchronousExecutor.class:?]
+	at net.minecraftforge.common.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:302) [AsynchronousExecutor.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:12) [ChunkIOExecutor.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:126) [ms.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101) [ms.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.func_73154_d(ChunkProviderServer.java:199) [ms.class:?]
+	at net.minecraft.world.World.func_72964_e(World.java:419) [ahb.class:?]
+	at net.minecraft.world.WorldServer.func_147456_g(WorldServer.java:313) [mt.class:?]
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:183) [mt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:625) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+Caused by: java.lang.IllegalStateException: Entity is already tracked!
+	at net.minecraft.entity.EntityTracker.func_72785_a(EntityTracker.java:196) ~[mn.class:?]
+	... 23 more
+[11:15:23] [Server thread/INFO]: <Seileyas> 7x9x6
+[11:17:40] [Server thread/INFO]: [Seileyas: Given [Cursed Earth] * 64 to Seileyas]
+[11:28:20] [Server thread/WARN]: Seileyas moved wrongly!
+[11:29:14] [Server thread/INFO]: [Seileyas: Given [Dark Glass] * 64 to Seileyas]
+[11:32:31] [Server thread/INFO]: [Seileyas: Given [Hopper] * 64 to Seileyas]
+[11:32:45] [Server thread/INFO]: [Seileyas: Given [Iron Spike] * 64 to Seileyas]
+[11:34:32] [Server thread/INFO]: [Seileyas: Given [Dark Glass] * 1 to Seileyas]
+[11:34:43] [Server thread/INFO]: Venomous Zombie Pigman was pricked to death
+[11:34:49] [Server thread/INFO]: Mighty Blaze was shot by Seileyas using [§fChris Crossbow]
+[11:37:08] [Server thread/INFO]: [Seileyas: Teleported Seileyas to 16.5,78.5,9.5]
+[11:38:33] [Server thread/INFO]: [Seileyas: Given [ME Export Bus] * 64 to Seileyas]
+[12:00:45] [Server thread/WARN]: Seileyas moved wrongly!
+[12:38:23] [Server thread/INFO]: [Seileyas: Set the time to 0]
+[12:38:40] [Server thread/INFO]: [Seileyas: Toggled downfall]
+[12:53:32] [Server thread/INFO]: [Seileyas: Given [Acceleration Card] * 1 to Seileyas]
+[12:58:00] [Server thread/INFO]: Seileyas has just earned the achievement [Is it stainless?]
+[12:58:47] [Server thread/ERROR]: "Silently" catching entity tracking error.
+net.minecraft.util.ReportedException: Adding entity to track
+	at net.minecraft.entity.EntityTracker.func_72785_a(EntityTracker.java:230) [mn.class:?]
+	at cpw.mods.fml.common.registry.EntityRegistry.tryTrackingEntity(EntityRegistry.java:364) [EntityRegistry.class:?]
+	at net.minecraft.entity.EntityTracker.func_72786_a(EntityTracker.java:61) [mn.class:?]
+	at net.minecraft.world.WorldManager.func_72703_a(SourceFile:31) [mp.class:?]
+	at net.minecraft.world.World.func_72923_a(World.java:1347) [ahb.class:?]
+	at net.minecraft.world.WorldServer.func_72923_a(WorldServer.java:844) [mt.class:?]
+	at net.minecraft.world.World.func_72868_a(World.java:3304) [ahb.class:?]
+	at net.minecraft.world.chunk.Chunk.func_76631_c(Chunk.java:921) [apx.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:46) [ChunkIOProvider.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:12) [ChunkIOProvider.class:?]
+	at net.minecraftforge.common.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:344) [AsynchronousExecutor.class:?]
+	at net.minecraftforge.common.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:302) [AsynchronousExecutor.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:12) [ChunkIOExecutor.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:126) [ms.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101) [ms.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.func_73154_d(ChunkProviderServer.java:199) [ms.class:?]
+	at net.minecraft.world.World.func_72964_e(World.java:419) [ahb.class:?]
+	at net.minecraft.world.WorldServer.func_147456_g(WorldServer.java:313) [mt.class:?]
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:183) [mt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:625) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+Caused by: java.lang.IllegalStateException: Entity is already tracked!
+	at net.minecraft.entity.EntityTracker.func_72785_a(EntityTracker.java:196) ~[mn.class:?]
+	... 23 more
+[13:01:16] [Server thread/INFO]: [Seileyas: Given [Redstone Engine] * 1 to Seileyas]
+[13:01:17] [Server thread/INFO]: [Seileyas: Given [Redstone Engine] * 1 to Seileyas]
+[13:01:17] [Server thread/INFO]: [Seileyas: Given [Redstone Engine] * 1 to Seileyas]
+[13:01:18] [Server thread/INFO]: [Seileyas: Given [Redstone Engine] * 1 to Seileyas]
+[13:02:20] [Server thread/INFO]: [Seileyas: Given [Lever] * 1 to Seileyas]
+[13:02:20] [Server thread/INFO]: [Seileyas: Given [Lever] * 1 to Seileyas]
+[13:02:21] [Server thread/INFO]: [Seileyas: Given [Lever] * 1 to Seileyas]
+[13:02:21] [Server thread/INFO]: [Seileyas: Given [Lever] * 1 to Seileyas]
+[13:03:03] [Server thread/INFO]: Infested Blaze was pricked to death
+[13:05:47] [Server thread/INFO]: Armored Zombie Pigman was pricked to death
+[13:06:04] [Server thread/INFO]: [Seileyas: Teleported Seileyas to 16.5,78.5,9.5]
+[13:06:28] [Server thread/INFO]: [Seileyas: Set the time to 0]
+[13:07:00] [Server thread/INFO]: Seileyas has just earned the achievement [The start of something big]
+[13:09:30] [Server thread/INFO]: Vampiric Skeleton was pricked to death
+[13:09:44] [Server thread/INFO]: Vampiric Zombie Pigman was pricked to death
+[13:26:38] [Server thread/INFO]: [Seileyas: Teleported Seileyas to 16.5,78.5,9.5]
+[13:37:55] [Server thread/INFO]: Undying Zombie Pigman was pricked to death
+[13:39:29] [Server thread/INFO]: Warded Wither Skeleton was pricked to death
+[13:39:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3531ms behind, skipping 70 tick(s)
+[13:39:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2268ms behind, skipping 45 tick(s)
+[13:40:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3989ms behind, skipping 79 tick(s)
+[13:40:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3136ms behind, skipping 62 tick(s)
+[13:40:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3457ms behind, skipping 69 tick(s)
+[13:46:35] [Server thread/INFO]: Sickly Blaze was pricked to death
+[13:47:08] [Server thread/INFO]: Sickly Wither Skeleton was pricked to death
+[13:55:09] [Server thread/INFO]: Mighty Blaze was slain by [Minecraft]
+[13:57:27] [Server thread/INFO]: Bold Blaze was slain by [Minecraft]
+[13:59:21] [Server thread/INFO]: Venomous Wither Skeleton was pricked to death
+[14:03:18] [Server thread/INFO]: Grim Wither Skeleton was pricked to death
+[14:11:49] [Server thread/INFO]: Grim Zombie Pigman was slain by [Minecraft]
+[14:13:15] [Server thread/INFO]: Undying Zombie Pigman was pricked to death
+[14:21:17] [Server thread/INFO]: Bold Zombie Pigman was slain by [Minecraft]
+[14:35:50] [Server thread/INFO]: Bold Blaze was slain by [Minecraft]
+[14:38:38] [Server thread/INFO]: Venomous Blaze was pricked to death
+[15:03:40] [Server thread/INFO]: Undying Zombie Pigman was slain by [Minecraft]
+[15:04:20] [Server thread/INFO]: [Seileyas: Saved the world]
+[15:04:22] [Server thread/INFO]: [Seileyas: Stopping the server]
+[15:04:22] [Server thread/INFO]: Stopping server
+[15:04:22] [Server thread/INFO]: Saving players
+[15:04:22] [Server thread/INFO]: Saving worlds
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/the Ancient Treasure Room
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/Torment
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/Land of Darkness
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/Bedrock
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
+[15:04:22] [Server thread/INFO]: Saving chunks for level 'world'/SpectreWorld
