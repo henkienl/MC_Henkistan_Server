@@ -1,58 +1,50 @@
-[20:37:11] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[20:38:08] [Server thread/INFO]: Loading properties
-[20:38:08] [Server thread/INFO]: Default game type: SURVIVAL
-[20:38:08] [Server thread/INFO]: Generating keypair
-[20:38:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:38:59] [Server thread/INFO]: Preparing level "world"
-[20:40:46] [Server thread/INFO]: Preparing start region for level 0
-[20:40:47] [Server thread/INFO]: Preparing spawn area: 41%
-[20:40:49] [Server thread/INFO]: Preparing spawn area: 44%
-[20:40:49] [Server thread/INFO]: Done (111,878s)! For help, type "help" or "?"
-[20:40:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2359ms behind, skipping 47 tick(s)
-[20:41:59] [User Authenticator #1/INFO]: UUID of player Seileyas is 24edf5d4-9f30-45f9-a861-9600028d6af9
-[20:41:59] [Server thread/INFO]: Seileyas[/127.0.0.1:50898] logged in with entity id 1196 at (119.44578176841472, 75.0, 156.47808140702355)
-[20:41:59] [Server thread/INFO]: Seileyas joined the game
-[20:43:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2748ms behind, skipping 54 tick(s)
-[20:46:16] [Server thread/INFO]: Warded Blaze was slain by [Minecraft]
-[20:59:49] [Server thread/INFO]: Fiery Zombie Pigman was pricked to death
-[21:05:20] [Server thread/INFO]: [Seileyas: Teleported Seileyas to 134.5,156.5,175.5]
-[21:17:50] [Server thread/INFO]: Seileyas has just earned the achievement [Lilium Doll]
-[21:21:42] [Server thread/INFO]: Fiery Zombie Pigman was pricked to death
-[21:25:36] [Server thread/INFO]: Undying Wither Skeleton was pricked to death
-[21:32:41] [Server thread/INFO]: Mighty Blaze was pricked to death
-[21:34:00] [Server thread/INFO]: [Seileyas: Saved the world]
-[21:38:37] [Server thread/INFO]: Spined Skeleton was pricked to death
-[21:44:47] [Server thread/INFO]: Seileyas has just earned the achievement [Inner Arts]
-[21:46:02] [Server thread/INFO]: Sickly Blaze was slain by [Minecraft]
-[21:47:57] [Server thread/INFO]: Clarisse starved to death
-[21:51:32] [Server thread/INFO]: Undying Blaze was pricked to death
-[22:00:23] [Server thread/INFO]: Grim Blaze was pricked to death
-[22:06:03] [Server thread/INFO]: Armored Wither Skeleton was pricked to death
-[22:11:02] [Server thread/INFO]: Infested Blaze was pricked to death
-[22:18:23] [Server thread/INFO]: Warded Wither Skeleton was pricked to death
-[22:20:14] [Server thread/INFO]: Venomous Blaze was pricked to death
-[22:29:21] [Server thread/INFO]: Seileyas has shared a Lexica Botania entry, click to see it: [Runic Altar]
-[22:36:58] [Server thread/INFO]: Spined Zombie Pigman was pricked to death
-[22:40:49] [Server thread/INFO]: Spined Zombie Pigman was pricked to death
-[22:46:48] [Server thread/INFO]: Bold Blaze was pricked to death
-[22:57:16] [Server thread/INFO]: Warded Zombie Pigman was pricked to death
-[22:58:03] [Server thread/INFO]: Seileyas lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: De externe host heeft een verbinding verbroken], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[22:58:03] [Server thread/INFO]: Seileyas left the game
-[22:58:22] [Server thread/INFO]: Stopping the server
-[22:58:23] [Server thread/INFO]: Stopping server
-[22:58:23] [Server thread/INFO]: Saving players
-[22:58:23] [Server thread/INFO]: Saving worlds
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/the Ancient Treasure Room
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/Torment
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/Land of Darkness
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/Bedrock
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
-[22:58:23] [Server thread/INFO]: Saving chunks for level 'world'/SpectreWorld
+[00:08:17] [User Authenticator #2/INFO]: UUID of player Seileyas is 24edf5d4-9f30-45f9-a861-9600028d6af9
+[00:08:17] [Server thread/INFO]: Seileyas lost connection: TextComponent{text='You logged in from another location', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[00:08:17] [Server thread/INFO]: Seileyas left the game
+[00:08:18] [Server thread/INFO]: Seileyas[/127.0.0.1:53294] logged in with entity id 51979 at (110.80967531538349, 88.05957231060108, 167.63242631848135)
+[00:08:18] [Server thread/INFO]: Seileyas joined the game
+[00:15:48] [Server thread/INFO]: Infested Wither Skeleton was pricked to death
+[00:16:57] [Server thread/INFO]: Sickly Zombie Pigman was pricked to death
+[00:17:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5545ms behind, skipping 110 tick(s)
+[00:17:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4324ms behind, skipping 86 tick(s)
+[00:18:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8958ms behind, skipping 179 tick(s)
+[00:18:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9585ms behind, skipping 191 tick(s)
+[00:18:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7993ms behind, skipping 159 tick(s)
+[00:19:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7463ms behind, skipping 149 tick(s)
+[00:19:46] [Server thread/INFO]: Fiery Zombie Pigman was slain by [Minecraft]
+[00:21:56] [Server thread/INFO]: Undying Blaze was pricked to death
+[00:49:34] [Server thread/INFO]: Fiery Wither Skeleton was pricked to death
+[00:50:23] [Server thread/INFO]: Sickly Blaze was pricked to death
+[00:58:25] [Server thread/INFO]: [Seileyas: Set the time to 0]
+[01:00:42] [Server thread/INFO]: Warded Blaze was pricked to death
+[01:10:47] [Server thread/INFO]: Warped Wither Skeleton was pricked to death
+[01:17:56] [Server thread/INFO]: Grim Blaze was pricked to death
+[01:20:49] [Server thread/INFO]: Whitney was shot by Seileyas using [§fChris Crossbow]
+[01:21:30] [Server thread/INFO]: [Seileyas: Given [Name Tag] * 1 to Seileyas]
+[01:22:45] [Server thread/INFO]: Mighty Zombie Pigman was pricked to death
+[01:22:46] [Server thread/INFO]: [Seileyas: Given [Golden Jailer's Safari Net] * 1 to Seileyas]
+[01:23:27] [Server thread/INFO]: Bold Blaze was pricked to death
+[01:32:17] [Server thread/INFO]: Spined Blaze was pricked to death
+[01:35:46] [Server thread/INFO]: [Seileyas: Set the time to 0]
+[01:35:54] [Server thread/INFO]: Vampiric Blaze was pricked to death
+[01:42:10] [Server thread/INFO]: Venomous Zombie Pigman was pricked to death
+[01:51:19] [Server thread/INFO]: Fiery Wither Skeleton was pricked to death
+[01:57:47] [Server thread/INFO]: [Seileyas: Saved the world]
+[01:57:50] [Server thread/INFO]: [Seileyas: Stopping the server]
+[01:57:50] [Server thread/INFO]: Stopping server
+[01:57:50] [Server thread/INFO]: Saving players
+[01:57:50] [Server thread/INFO]: Saving worlds
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/the Ancient Treasure Room
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/Torment
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/Land of Darkness
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/Bedrock
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[01:57:50] [Server thread/INFO]: Saving chunks for level 'world'/SpectreWorld
