@@ -1,14 +1,14 @@
-[18:04:21] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[18:05:46] [Server thread/INFO]: Loading properties
-[18:05:46] [Server thread/INFO]: Default game type: SURVIVAL
-[18:05:46] [Server thread/INFO]: Generating keypair
-[18:05:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:06:44] [Server thread/INFO]: Preparing level "world"
-[18:08:22] [Server thread/INFO]: Preparing start region for level 0
-[18:08:23] [Server thread/INFO]: Preparing spawn area: 28%
-[18:08:25] [Server thread/INFO]: Preparing spawn area: 44%
-[18:08:26] [Server thread/INFO]: Done (102,718s)! For help, type "help" or "?"
-[18:08:26] [Server thread/ERROR]: "Silently" catching entity tracking error.
+[19:08:11] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[19:09:09] [Server thread/INFO]: Loading properties
+[19:09:09] [Server thread/INFO]: Default game type: SURVIVAL
+[19:09:09] [Server thread/INFO]: Generating keypair
+[19:09:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:10:02] [Server thread/INFO]: Preparing level "world"
+[19:11:28] [Server thread/INFO]: Preparing start region for level 0
+[19:11:29] [Server thread/INFO]: Preparing spawn area: 41%
+[19:11:30] [Server thread/INFO]: Preparing spawn area: 44%
+[19:11:31] [Server thread/INFO]: Done (89,483s)! For help, type "help" or "?"
+[19:11:32] [Server thread/ERROR]: "Silently" catching entity tracking error.
 net.minecraft.util.ReportedException: Adding entity to track
 	at net.minecraft.entity.EntityTracker.func_72785_a(EntityTracker.java:230) [mn.class:?]
 	at cpw.mods.fml.common.registry.EntityRegistry.tryTrackingEntity(EntityRegistry.java:364) [EntityRegistry.class:?]
@@ -33,7 +33,7 @@ net.minecraft.util.ReportedException: Adding entity to track
 	at codechicken.chunkloader.ChunkLoaderManager.revivePlayerLoaders(ChunkLoaderManager.java:797) [ChunkLoaderManager.class:?]
 	at codechicken.chunkloader.ChunkLoaderManager.tickEnd(ChunkLoaderManager.java:758) [ChunkLoaderManager.class:?]
 	at codechicken.chunkloader.ChunkLoaderEventHandler.worldTick(ChunkLoaderEventHandler.java:32) [ChunkLoaderEventHandler.class:?]
-	at cpw.mods.fml.common.eventhandler.ASMEventHandler_501_ChunkLoaderEventHandler_worldTick_WorldTickEvent.invoke(.dynamic) [?:?]
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler_502_ChunkLoaderEventHandler_worldTick_WorldTickEvent.invoke(.dynamic) [?:?]
 	at cpw.mods.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:54) [ASMEventHandler.class:?]
 	at cpw.mods.fml.common.eventhandler.EventBus.post(EventBus.java:138) [EventBus.class:?]
 	at cpw.mods.fml.common.FMLCommonHandler.onPostWorldTick(FMLCommonHandler.java:255) [FMLCommonHandler.class:?]
@@ -45,7 +45,7 @@ net.minecraft.util.ReportedException: Adding entity to track
 Caused by: java.lang.IllegalStateException: Entity is already tracked!
 	at net.minecraft.entity.EntityTracker.func_72785_a(EntityTracker.java:196) ~[mn.class:?]
 	... 31 more
-[18:08:26] [Server thread/ERROR]: "Silently" catching entity tracking error.
+[19:11:32] [Server thread/ERROR]: "Silently" catching entity tracking error.
 net.minecraft.util.ReportedException: Adding entity to track
 	at net.minecraft.entity.EntityTracker.func_72785_a(EntityTracker.java:230) [mn.class:?]
 	at cpw.mods.fml.common.registry.EntityRegistry.tryTrackingEntity(EntityRegistry.java:364) [EntityRegistry.class:?]
@@ -70,7 +70,7 @@ net.minecraft.util.ReportedException: Adding entity to track
 	at codechicken.chunkloader.ChunkLoaderManager.revivePlayerLoaders(ChunkLoaderManager.java:797) [ChunkLoaderManager.class:?]
 	at codechicken.chunkloader.ChunkLoaderManager.tickEnd(ChunkLoaderManager.java:758) [ChunkLoaderManager.class:?]
 	at codechicken.chunkloader.ChunkLoaderEventHandler.worldTick(ChunkLoaderEventHandler.java:32) [ChunkLoaderEventHandler.class:?]
-	at cpw.mods.fml.common.eventhandler.ASMEventHandler_501_ChunkLoaderEventHandler_worldTick_WorldTickEvent.invoke(.dynamic) [?:?]
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler_502_ChunkLoaderEventHandler_worldTick_WorldTickEvent.invoke(.dynamic) [?:?]
 	at cpw.mods.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:54) [ASMEventHandler.class:?]
 	at cpw.mods.fml.common.eventhandler.EventBus.post(EventBus.java:138) [EventBus.class:?]
 	at cpw.mods.fml.common.FMLCommonHandler.onPostWorldTick(FMLCommonHandler.java:255) [FMLCommonHandler.class:?]
@@ -82,7 +82,7 @@ net.minecraft.util.ReportedException: Adding entity to track
 Caused by: java.lang.IllegalStateException: Entity is already tracked!
 	at net.minecraft.entity.EntityTracker.func_72785_a(EntityTracker.java:196) ~[mn.class:?]
 	... 31 more
-[18:08:26] [Server thread/ERROR]: "Silently" catching entity tracking error.
+[19:11:32] [Server thread/ERROR]: "Silently" catching entity tracking error.
 net.minecraft.util.ReportedException: Adding entity to track
 	at net.minecraft.entity.EntityTracker.func_72785_a(EntityTracker.java:230) [mn.class:?]
 	at cpw.mods.fml.common.registry.EntityRegistry.tryTrackingEntity(EntityRegistry.java:364) [EntityRegistry.class:?]
@@ -107,7 +107,7 @@ net.minecraft.util.ReportedException: Adding entity to track
 	at codechicken.chunkloader.ChunkLoaderManager.revivePlayerLoaders(ChunkLoaderManager.java:797) [ChunkLoaderManager.class:?]
 	at codechicken.chunkloader.ChunkLoaderManager.tickEnd(ChunkLoaderManager.java:758) [ChunkLoaderManager.class:?]
 	at codechicken.chunkloader.ChunkLoaderEventHandler.worldTick(ChunkLoaderEventHandler.java:32) [ChunkLoaderEventHandler.class:?]
-	at cpw.mods.fml.common.eventhandler.ASMEventHandler_501_ChunkLoaderEventHandler_worldTick_WorldTickEvent.invoke(.dynamic) [?:?]
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler_502_ChunkLoaderEventHandler_worldTick_WorldTickEvent.invoke(.dynamic) [?:?]
 	at cpw.mods.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:54) [ASMEventHandler.class:?]
 	at cpw.mods.fml.common.eventhandler.EventBus.post(EventBus.java:138) [EventBus.class:?]
 	at cpw.mods.fml.common.FMLCommonHandler.onPostWorldTick(FMLCommonHandler.java:255) [FMLCommonHandler.class:?]
@@ -119,7 +119,7 @@ net.minecraft.util.ReportedException: Adding entity to track
 Caused by: java.lang.IllegalStateException: Entity is already tracked!
 	at net.minecraft.entity.EntityTracker.func_72785_a(EntityTracker.java:196) ~[mn.class:?]
 	... 31 more
-[18:08:26] [Server thread/ERROR]: "Silently" catching entity tracking error.
+[19:11:32] [Server thread/ERROR]: "Silently" catching entity tracking error.
 net.minecraft.util.ReportedException: Adding entity to track
 	at net.minecraft.entity.EntityTracker.func_72785_a(EntityTracker.java:230) [mn.class:?]
 	at cpw.mods.fml.common.registry.EntityRegistry.tryTrackingEntity(EntityRegistry.java:364) [EntityRegistry.class:?]
@@ -144,7 +144,7 @@ net.minecraft.util.ReportedException: Adding entity to track
 	at codechicken.chunkloader.ChunkLoaderManager.revivePlayerLoaders(ChunkLoaderManager.java:797) [ChunkLoaderManager.class:?]
 	at codechicken.chunkloader.ChunkLoaderManager.tickEnd(ChunkLoaderManager.java:758) [ChunkLoaderManager.class:?]
 	at codechicken.chunkloader.ChunkLoaderEventHandler.worldTick(ChunkLoaderEventHandler.java:32) [ChunkLoaderEventHandler.class:?]
-	at cpw.mods.fml.common.eventhandler.ASMEventHandler_501_ChunkLoaderEventHandler_worldTick_WorldTickEvent.invoke(.dynamic) [?:?]
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler_502_ChunkLoaderEventHandler_worldTick_WorldTickEvent.invoke(.dynamic) [?:?]
 	at cpw.mods.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:54) [ASMEventHandler.class:?]
 	at cpw.mods.fml.common.eventhandler.EventBus.post(EventBus.java:138) [EventBus.class:?]
 	at cpw.mods.fml.common.FMLCommonHandler.onPostWorldTick(FMLCommonHandler.java:255) [FMLCommonHandler.class:?]
@@ -156,30 +156,34 @@ net.minecraft.util.ReportedException: Adding entity to track
 Caused by: java.lang.IllegalStateException: Entity is already tracked!
 	at net.minecraft.entity.EntityTracker.func_72785_a(EntityTracker.java:196) ~[mn.class:?]
 	... 31 more
-[18:10:55] [User Authenticator #1/INFO]: UUID of player Seileyas is 24edf5d4-9f30-45f9-a861-9600028d6af9
-[18:10:56] [Server thread/INFO]: Seileyas[/127.0.0.1:58170] logged in with entity id 2308 at (-61.66266275755539, 66.0, 490.6952295182981)
-[18:10:56] [Server thread/INFO]: Seileyas joined the game
-[18:11:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2672ms behind, skipping 53 tick(s)
-[18:16:04] [Server thread/INFO]: [Seileyas: Teleported Seileyas to 127.5,76.5,149.5]
-[18:16:39] [Server thread/INFO]: [Seileyas: Teleported Seileyas to -62.5,66.5,492.5]
-[19:03:19] [Server thread/INFO]: [Seileyas: Teleported Seileyas to 127.5,76.5,149.5]
-[19:15:46] [Server thread/INFO]: Seileyas lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[19:15:46] [Server thread/INFO]: Seileyas left the game
-[19:15:55] [Server thread/INFO]: Stopping the server
-[19:15:55] [Server thread/INFO]: Stopping server
-[19:15:55] [Server thread/INFO]: Saving players
-[19:15:55] [Server thread/INFO]: Saving worlds
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/the Ancient Treasure Room
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/Torment
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/Land of Darkness
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/Bedrock
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
-[19:15:55] [Server thread/INFO]: Saving chunks for level 'world'/SpectreWorld
+[19:13:50] [User Authenticator #1/INFO]: UUID of player Seileyas is 24edf5d4-9f30-45f9-a861-9600028d6af9
+[19:13:50] [Server thread/INFO]: Seileyas[/127.0.0.1:53138] logged in with entity id 2362 at (136.48447766777986, 70.0, 146.8894164827211)
+[19:13:50] [Server thread/INFO]: Seileyas joined the game
+[19:13:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2847ms behind, skipping 56 tick(s)
+[19:14:50] [Server thread/INFO]: [Seileyas: Teleported Seileyas to -62.5,66.5,492.5]
+[19:46:39] [Server thread/INFO]: [Seileyas: Teleported Seileyas to 39.5,65.5,224.5]
+[19:50:17] [Server thread/INFO]: [Seileyas: Teleported Seileyas to -62.5,66.5,492.5]
+[19:52:06] [Server thread/INFO]: [Seileyas: Teleported Seileyas to 127.5,76.5,149.5]
+[19:56:02] [Server thread/INFO]: [Seileyas: Teleported Seileyas to -62.5,66.5,492.5]
+[19:59:49] [Server thread/INFO]: [Seileyas: Teleported Seileyas to 127.5,76.5,149.5]
+[20:00:04] [Server thread/INFO]: Seileyas lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[20:00:04] [Server thread/INFO]: Seileyas left the game
+[20:00:22] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[20:00:26] [Server thread/INFO]: Stopping the server
+[20:00:27] [Server thread/INFO]: Stopping server
+[20:00:27] [Server thread/INFO]: Saving players
+[20:00:27] [Server thread/INFO]: Saving worlds
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/the Ancient Treasure Room
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/Torment
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/Land of Darkness
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/Bedrock
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[20:00:27] [Server thread/INFO]: Saving chunks for level 'world'/SpectreWorld
